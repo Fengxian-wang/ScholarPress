@@ -1,6 +1,6 @@
 ---
 title: Publications
-academia: true
+academia: false
 ---
 
 **Near Field Electromagnetic Energy Flow Regulation Method for WPT System via Frequency Adjustment**  
