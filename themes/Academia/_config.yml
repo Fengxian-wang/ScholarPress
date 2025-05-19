@@ -48,13 +48,13 @@ social_links:
 #  fab fa-facebook-square: /                             # 脸谱
   fab fa-github: https://github.com/Fengxian-wang        # Github
 #  fab fa-stack-overflow: /                              #‌ Stack Overflow
-  fab fa-linkedin: /                                     # 领英
+  fab fa-dashboard: /admin/                                     # 领英
 #  fab fa-weibo: /                                       # 微博
   fab fa-weixin: /img/wechat.jpg                         # 微信
 #  fab fa-qq: /                                          # 企鹅
   fas fa-envelope: mailto:fx-wang@outlook.com            # 邮箱
 #  fas fa-rss: /                                         # RSS订阅
-  fab fa-dashboard: /admin/                              # 后台
+  fab fa-linkedin: /admin/                              # 后台
 
 
 # ========================
