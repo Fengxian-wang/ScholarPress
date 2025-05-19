@@ -1,6 +1,6 @@
 ---
 title: CV
-academia: true
+academia: false
 ---
 
 
