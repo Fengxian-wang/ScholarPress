@@ -44,16 +44,16 @@ social:
 # 社交平台配置（使用Font Awesome 4.7图标）
 # 格式：fab fa-平台名称: 链接地址
 social_links:
-  fab fa-twitter: /
-  fab fa-facebook-square: /
-  fab fa-github: /
-  fab fa-stack-overflow: /
+#  fab fa-twitter: /
+#  fab fa-facebook-square: /
+  fab fa-github: https://github.com/Fengxian-wang/
+#  fab fa-stack-overflow: /
   fab fa-linkedin: /
-  fab fa-weibo: /
+#  fab fa-weibo: /
   fab fa-weixin: /
   fab fa-qq: /
   fas fa-envelope: /  # 邮箱图标
-  fas fa-rss: /      # RSS订阅
+#  fas fa-rss: /      # RSS订阅
 
 
 # ========================
