@@ -1,8 +1,9 @@
 ---
-title: Projects
+title: Participating Projects
 academia: false
 ---
-## Participating Projects  
+
+
 **Wireless Charging Smart Cities**  
 Project No. kxyjskpxm2019042 | 2019  
 China Association of Science and Technology | Principal Investigator  
