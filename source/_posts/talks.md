@@ -1,6 +1,6 @@
 ---
 title: Talks
-academia: true
+academia: false
 ---
 ## Academic Activities  
 **Research on Electromagnetic Energy Flow and Coupling Characteristics**  
