@@ -48,7 +48,7 @@ social_links:
 #  fab fa-facebook-square: /                             # 脸谱
   fab fa-github: https://github.com/Fengxian-wang        # Github
 #  fab fa-stack-overflow: /                              #‌ Stack Overflow
-  fab fa-linkedin: www.linkedin.com/in/fengxian-wang     # 领英
+  fab fa-linkedin: https://www.linkedin.com/in/fengxian-wang     # 领英
 #  fab fa-weibo: /                                       # 微博
   fab fa-weixin: /img/wechat.jpg                         # 微信
 #  fab fa-qq: /                                          # 企鹅
