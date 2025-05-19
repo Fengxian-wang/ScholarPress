@@ -6,4 +6,6 @@ I am a present Ph.D. student at the [School of Electrical Engineering](https://e
 
 My research interests focus on engineering electromagnetism, wireless power transfer, and its industrial applications.
 
-You can find my CV here: [Fengxian Wang’s Curriculum Vitae](https://fengxian-wang.github.io/assets/Curriculum_Vitae.pdf).[Email](https://fengxian-wang.github.io/note-gen-sync//fx-wang@outlook.com) / [Wechat](https://fengxian-wang.github.io/images/wechat.jpg)
+You can find my CV here: [Fengxian Wang’s Curriculum Vitae](https://fengxian-wang.github.io/assets/Curriculum_Vitae.pdf).
+
+[Email](https://fengxian-wang.github.io/note-gen-sync//fx-wang@outlook.com) / [Wechat](https://fengxian-wang.github.io/images/wechat.jpg)
