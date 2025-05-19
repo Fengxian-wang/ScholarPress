@@ -1,6 +1,6 @@
 ---
 title: Projects
-academia: true
+academia: false
 ---
 ## Participating Projects  
 **Wireless Charging Smart Cities**  
