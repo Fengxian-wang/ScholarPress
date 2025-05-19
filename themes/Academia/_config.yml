@@ -1,27 +1,48 @@
+# ========================
+# 基本个人信息配置
+# ========================
+# 网站图标路径（建议尺寸：32x32 或 64x64 像素）
 favicon: /img/favicon.png
-# Change to your profile picture
+
+# 头像路径（建议尺寸：200x200 像素正方形）
 avatar: /img/avatar.jpg
-# if author sets in hexo_config, this string doesn't work
+
+# 作者名称（如果hexo主配置已设置author，此处不生效）
 author: 'Jason'
+
+# 作者简介（显示在个人主页）
 author_bio: 'Your biography can be writed down here.'
 
+# 建站年份（显示在页脚版权信息）
 since: 2020
 
-# Top Menu 顶部菜单
-# #title 为页内跳转，单页模式
-# 可以选择外链或其他页面
+
+# ========================
+# 导航菜单配置
+# ========================
+# 格式：显示名称: 链接路径（支持锚点#）
+# 示例：Publications: /publications#journal
 menu:
   Publications: /publications
 
-# flink picture will load if avator link calls on error
+
+# ========================
+# 加载状态配置
+# ========================
+# 头像加载失败时的备用背景图
 loading_bg:
   flink: /img/profile.png
 
-# Social Links; 社交链接，不需要的链接直接注释掉
-# 可以调整显示顺序
-# 图标调用 font-awesome 4.7
+
+# ========================
+# 社交链接配置
+# ========================
+# 启用标准社交图标（true/false）
 social:
   enable: true
+
+# 社交平台配置（使用Font Awesome 4.7图标）
+# 格式：fab fa-平台名称: 链接地址
 social_links:
   fab fa-twitter: /
   fab fa-facebook-square: /
@@ -31,46 +52,66 @@ social_links:
   fab fa-weibo: /
   fab fa-weixin: /
   fab fa-qq: /
-  fas fa-envelope: / #E-mail
-  fas fa-rss: /  #rss
+  fas fa-envelope: /  # 邮箱图标
+  fas fa-rss: /      # RSS订阅
 
-# Additional social_links，额外添加自定义链接，可显示链接名称
-# name: url || icon_name
+
+# ========================
+# 扩展社交链接配置
+# ========================
+# 启用自定义社交链接（true/false）
 e_social:
   enable: true
+
+# 自定义链接格式：显示名称: 链接地址 || 图标类名
+# 示例：Google Scholar: https://scholar.com || fas fa-graduation-cap
 e_social_links:
   Google Scholar: / || fas fa-graduation-cap
   ORCID: / || fab fa-orcid
 
-# CV download link
-cv_dl:
-  enable: true
-  dir: /attaches/CV.pdf
-  description: My Detail CV.
 
-# Box-shadow
-# display box-shadow on page or not
+# ========================
+# 简历下载配置
+# ========================
+cv_dl:
+  enable: true        # 启用下载按钮
+  dir: /attaches/CV.pdf  # PDF文件路径（建议放在source/attaches目录）
+  description: My Detail CV.  # 鼠标悬停提示文字
+
+
+# ========================
+# 视觉效果配置
+# ========================
+# 是否启用卡片阴影效果（true/false）
 box_shadow:
   enable: false
 
-# CDN
-# 根据需要自行添加js/css
-# 自定义css可以直接写在user.styl中
+
+# ========================
+# 资源加载配置
+# ========================
+# 自定义CSS/JS文件加载（路径从source目录开始）
 CDN_USE:
   css:
-    - /css/index.css
-#    - https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css
-    - https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css # fontawesome 5
+    - /css/index.css                       # 本地CSS文件
+    - https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css  # FontAwesome 5
   js:
-    - https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js #/js/third-party/jquery.min.js
-    - https://cdn.jsdelivr.net/npm/jquery-pjax@latest/jquery.pjax.min.js
-    - /js/main.js
+    - https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js          # jQuery库
+    - https://cdn.jsdelivr.net/npm/jquery-pjax@latest/jquery.pjax.min.js    # PJAX插件
+    - /js/main.js                                                           # 本地JS文件
 
-# MathJax Support
+
+# ========================
+# 数学公式支持
+# ========================
 mathjax:
-  enable: true
-  cdn: https://cdn.jsdelivr.net/npm/mathjax@2.7.8/MathJax.js?config=TeX-MML-AM_CHTML
+  enable: true  # 启用MathJax渲染
+  cdn: https://cdn.jsdelivr.net/npm/mathjax@2.7.8/MathJax.js?config=TeX-MML-AM_CHTML  # CDN地址
 
+
+# ========================
+# 访问统计配置
+# ========================
 statistic:
-  enable: true
-  cdn: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-busuanzi@2.3/js/busuanzi.pure.mini.js
+  enable: true  # 启用不蒜子统计
+  cdn: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-busuanzi@2.3/js/busuanzi.pure.mini.js  # 统计脚本
