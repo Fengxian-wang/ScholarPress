@@ -44,16 +44,17 @@ social:
 # 社交平台配置（使用Font Awesome 4.7图标）
 # 格式：fab fa-平台名称: 链接地址
 social_links:
-#  fab fa-twitter: /
-#  fab fa-facebook-square: /
-  fab fa-github: https://github.com/Fengxian-wang/
-#  fab fa-stack-overflow: /
-  fab fa-linkedin: /
-#  fab fa-weibo: /
-  fab fa-weixin: /img/wechat.jpg/
-  fab fa-qq: /
-  fas fa-envelope: fx-wang@outlook.com/  # 邮箱图标
-#  fas fa-rss: /      # RSS订阅
+#  fab fa-twitter: /                                     #推特
+#  fab fa-facebook-square: /                             #脸谱
+  fab fa-github: https://github.com/Fengxian-wang        #Github
+#  fab fa-stack-overflow: /                              #‌Stack Overflow
+  fab fa-linkedin: /                                     #领英
+#  fab fa-weibo: /                                       #微博
+  fab fa-weixin: /img/wechat.jpg                         #微信
+#  fab fa-qq: /                                          #企鹅
+  fas fa-envelope: mailto:fx-wang@outlook.com            # 邮箱
+#  fas fa-rss: /                                         # RSS订阅
+  fab fa-dashboard: /
 
 
 # ========================
@@ -66,8 +67,8 @@ e_social:
 # 自定义链接格式：显示名称: 链接地址 || 图标类名
 # 示例：Google Scholar: https://scholar.com || fas fa-graduation-cap
 e_social_links:
-  Google Scholar: / || fas fa-graduation-cap
-  ORCID: / || fab fa-orcid
+  Google Scholar: https://scholar.google.com.hk/citations?hl=zh-CN&user=WkrkOpgAAAAJ || fas fa-graduation-cap        #Google Scholar
+  ORCID: https://orcid.org/0009-0004-9435-6979 || fab fa-orcid                                                       #ORCID
 
 
 # ========================
