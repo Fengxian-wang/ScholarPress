@@ -1,8 +1,8 @@
-## Participating Projects
+## Research Projects
 
-| Name                                                                                                                                     | Project Initiation Time | Project Number   | Approving Department                         | Ranking                |
-| ---------------------------------------------------------------------------------------------------------------------------------------- | ----------------------- | ---------------- | -------------------------------------------- | ---------------------- |
-| Wireless Charging Smart Cities                                                                                                           | 2019                    | kxyjskpxm2019042 | China Association of Science and Technology  | First chair            |
-| Research on Fundamental Problems of Wireless Power Transmission in Near-Field Electromagnetic Fields                                     | 2021                    | 52122701         | National Natural Science Foundation of China | Unranked (PhD project) |
-| Research on High Performance Electromagnetic Coupling Method for Wireless Charging Based on Novel Flexible Laminated Nanocrystals        | 2019                    | 51977147         | National Natural Science Foundation of China | Fifth lead researcher  |
-| Research on the Mechanism and Smoothing Method of High Frequency Electromagnetic Force in the Process of Dynamic Wireless Power Coupling | 2018                    | 51807138         | National Natural Science Foundation of China | Unranked (MSc)         |
+Project Title | Duration | Grant No. | Agency | Role
+-------------|----------|-----------|--------|-----
+**Wireless Charging Smart Cities**<br>*Technical innovation in urban energy systems* | 2019-2022 | kxyjskpxm2019042 | China Association of Science and Technology | Principal Investigator
+**Fundamental Problems of Near-Field WPT**<br>*EM field coupling mechanisms research* | 2021-2024 | 52122701 | NSFC | Doctoral Research Project 
+**Flexible Nanocrystal-based EM Coupling**<br>*Novel materials for WPT applications* | 2019-2022 | 51977147 | NSFC | Core Member (Rank 5)
+**Dynamic WPT Force Smoothing Methods**<br>*High-frequency force regulation* | 2018-2021 | 51807138 | NSFC | Graduate Research Assistant
