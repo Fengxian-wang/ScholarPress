@@ -1,5 +1,3 @@
-<div style="max-width: 1200px; margin: 2rem auto; padding: 0 2rem;">
-
 ## <span id="education">Academic Background</span>
 
 | Degree | Institution | Department | Duration |
@@ -54,4 +52,4 @@
 
 ---
 
-</div>
+
