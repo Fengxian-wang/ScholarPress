@@ -1,55 +1,17 @@
 # 🚀 Hexo + Netlify CMS + Vercel 极速部署指南
 
-[![Deploy with Vercel](https://img.shields.io/badge/deploy%20with-vercel-%23000000.svg?style=for-the-badge&logo=vercel)](https://vercel.com/new/clone)
-[![GitHub Template](https://img.shields.io/badge/Template-Ready%20to%20Use-blueviolet?logo=github&style=for-the-badge)](https://github.com/hangvane/hexo-netlify-cms-vercel/generate)
-
-![Deployment Flowchart](https://mermaid.ink/svg/pako:eNpVkE1PwzAMhv9KlFeqbHxstEMICT7GBUkgLpzqJk7bqEnVbEj8d5x0HZqQnMd-vNd2nBd4wS7BdY0XaD3nHXQNtF3HhV8EeS6M8wq9h3lDmQ1bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdjqsLVhq8PWhq0OWxu2Omxt2OqwtWGrw9aGrQ5bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdjqsLVhq8PWhq0OWxu2Omxt2OqwtWGrw9aGrQ5bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdjqsLVhq8PWhq0OWxu2Omxt2OqwtWGrw9aGrQ5bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdjqsLVhq8PWhq0OWxu2Omxt2OqwtWGrw9aGrQ5bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdjqsLVhq8PWhq0OWxu2Omxt2OqwtWGrw9aGrQ5bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdjqsLVhq8PWhq0OWxu2Omxt2OqwtWGrw9aGrQ5bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdjqsLVhq8PWhq0OWxu2Omxt2OqwtWGrw9aGrQ5bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdjqsLVhq8PWhq0OWxu2Omxt2OqwtWGrw9aGrQ5bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdjqsLVhq8PWhq0OWxu2Omxt2OqwtWGrw9aGrQ5bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdjqsLVhq8PWhq0OWxu2Omxt2OqwtWGrw9aGrQ5bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdjqsLVhq8PWhq0OWxu2Omxt2OqwtWGrw9aGrQ5bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdjqsLVhq8PWhq0OWxu2Omxt2OqwtWGrw9aGrQ5bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdjqsLVhq8PWhq0OWxu2Omxt2OqwtWGrw9aGrQ5bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdjqsLVhq8PWhq0OWxu2Omxt2OqwtWGrw9aGrQ5bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdjqsLVhq8PWhq0OWxu2Omxt2OqwtWGrw9aGrQ5bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdjqsLVhq8PWhq0OWxu2Omxt2OqwtWGrw9aGrQ5bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdjqsLVhq8PWhq0OWxu2Omxt2OqwtWGrw9aGrQ5bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdjqsLVhq8PWhq0OWxu2Omxt2OqwtWGrw9aGrQ5bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdjqsLVhq8PWhq0OWxu2Omxt2OqwtWGrw9aGrQ5bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdjqsLVhq8PWhq0OWxu2Omxt2OqwtWGrw9aGrQ5bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdjqsLVhq8PWhq0OWxu2Omxt2OqwtWGrw9aGrQ5bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdjqsLVhq8PWhq0OWxu2Omxt2OqwtWGrw9aGrQ5bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdjqsLVhq8PWhq0OWxu2Omxt2OqwtWGrw9aGrQ5bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdjqsLVhq8PWhq0OWxu2Omxt2OqwtWGrw9aGrQ5bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdjqsLVhq8PWhq0OWxu2Omxt2OqwtWGrw9aGrQ5bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdjqsLVhq8PWhq0OWxu2Omxt2OqwtWGrw9aGrQ5bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdjqsLVhq8PWhq0OWxu2Omxt2OqwtWGrw9aGrQ5bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdjqsLVhq8PWhq0OWxu2Omxt2OqwtWGrw9aGrQ5bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdj
-
 第一步：Fork项目模板
-1. 访问项目GitHub地址：https://github.com/hangvane/hexo-netlify-cms-vercel
-2. 点击右上角 "Use this template" > "Create a new repository"
-3. 创建时可以设为私有仓库（建议公开以方便后续维护）
 
-第二步：配置 Netlify-CMS
-1. 在仓库中找到文件: `/source/admin/config.yml`
-2. 修改以下字段：
-   ```yaml
-   backend:
-     repo: your-github-username/your-repo-name  # 替换为你的仓库路径
-     base_url: https://your-vercel-domain.vercel.app  # 后续部署后会获得实际域名
-   ```
+[![GitHub Template](https://img.shields.io/badge/Template-Ready%20to%20Use-blueviolet?logo=github&style=for-the-badge)](https://github.com/Fengxian-wang/hexo-netlify-cms-vercel/generate)
+创建时可以设为私有仓库（建议公开以方便后续维护）
 
-第三步：创建 GitHub OAuth 应用
-1. 访问 https://github.com/settings/developers
-2. 点击 "New OAuth App"
-3. 填写：
-   • Application name: 任意名称（如 MyBlogCMS）
+第二步：部署到 Vercel
+[![Deploy with Vercel](https://img.shields.io/badge/deploy%20with-vercel-%23000000.svg?style=for-the-badge&logo=vercel)](https://vercel.com/new/clone)
 
-   • Homepage URL: https://your-vercel-domain.vercel.app
+点击部署，等待完成（约2-5分钟）
+获得临时访问地址“https://your-vercel-domain.vercel.app”
 
-   • Authorization callback URL: https://your-vercel-domain.vercel.app/callback
-
-   (暂时用临时域名，部署后可以修改)
-
-第四步：获取客户端凭证
-1. 创建完OAuth应用后，记录：
-   • Client ID
-
-   • 点击 "Generate a new client secret" 获取密钥
-
-
-第五步：部署到 Vercel
-1. 访问 https://vercel.com
-2. 新建项目 > Import Git Repository
-3. 选择你创建的仓库
-4. 在环境变量设置中添加：
-   • `OAUTH_GITHUB_CLIENT_ID` ➔ 你的Client ID
-
-   • `OAUTH_GITHUB_CLIENT_SECRET` ➔ 你的Client Secret
-
-5. 点击部署，等待完成（约2-5分钟）
-
-第六步：域名配置（可选）
+第三步：域名配置（可选）
 1. 部署完成后，在Vercel控制台：
    • 前往项目设置 > Domains
 
@@ -57,9 +19,44 @@
 
    • SSL证书会自动生成
 
+第四步：配置 Netlify-CMS
+1. 在仓库中找到文件: `/source/admin/config.yml`
+2. 修改以下字段：
+   ```yaml
+   backend:
+     repo: your-github-username/your-repo-name  # 替换为你的仓库路径
+     base_url: https://your-vercel-domain.vercel.app  # 临时访问地址
+   ```
 
-第七步：测试 CMS 系统
-1. 访问 `https://your-domain/admin/`
+第五步：创建 GitHub OAuth 应用
+1. 访问 https://github.com/settings/developers
+2. 点击 "New OAuth App"
+3. 填写：
+   • Application name: 任意名称（如 MyBlogCMS）
+
+   • Homepage URL: https://your-vercel-domain.vercel.app  # 临时访问地址
+
+   • Authorization callback URL: https://your-vercel-domain.vercel.app/callback
+
+   (暂时用临时域名，部署后可以修改)
+
+第六步：获取客户端凭证
+1. 创建完OAuth应用后，记录：
+   • Client ID
+
+   • 点击 "Generate a new client secret" 获取密钥
+
+
+第七步：更新Vercel变量
+ 在环境变量设置中添加：
+   • `OAUTH_GITHUB_CLIENT_ID` ➔ 你的Client ID
+
+   • `OAUTH_GITHUB_CLIENT_SECRET` ➔ 你的Client Secret
+
+重新部署，等待完成（约2-5分钟）
+
+第八步：测试 CMS 系统
+1. 访问 `https://your-domain/admin/`  # 临时访问地址/admin/ 或者 绑定的自定义域名/admin/
 2. 使用GitHub账号登录
 3. 测试功能：
    • 创建新文章
