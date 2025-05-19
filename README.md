@@ -1,94 +1,89 @@
-```markdown
-# 🌟 Hexo + Netlify CMS + Vercel 极速博客模板
+# 🚀 Hexo + Netlify CMS + Vercel 极速部署指南
 
-[![GitHub stars](https://img.shields.io/github/stars/hangvane/hexo-netlify-cms-vercel?style=for-the-badge)](https://github.com/hangvane/hexo-netlify-cms-vercel/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/hangvane/hexo-netlify-cms-vercel?style=for-the-badge)](https://github.com/hangvane/hexo-netlify-cms-vercel/network)
-[![GitHub last commit](https://img.shields.io/github/last-commit/hangvane/hexo-netlify-cms-vercel?style=for-the-badge)](https://github.com/hangvane/hexo-netlify-cms-vercel/commits)
+[![Deploy with Vercel](https://img.shields.io/badge/deploy%20with-vercel-%23000000.svg?style=for-the-badge&logo=vercel)](https://vercel.com/new/clone)
+[![GitHub Template](https://img.shields.io/badge/Template-Ready%20to%20Use-blueviolet?logo=github&style=for-the-badge)](https://github.com/hangvane/hexo-netlify-cms-vercel/generate)
 
-![Project Preview](https://via.placeholder.com/800x400.png?text=Blog+Demo+Showcase) 
-*(建议替换为实际效果图)*
+![Deployment Flowchart](https://mermaid.ink/svg/pako:eNpVkE1PwzAMhv9KlFeqbHxstEMICT7GBUkgLpzqJk7bqEnVbEj8d5x0HZqQnMd-vNd2nBd4wS7BdY0XaD3nHXQNtF3HhV8EeS6M8wq9h3lDmQ1bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdjqsLVhq8PWhq0OWxu2Omxt2OqwtWGrw9aGrQ5bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdjqsLVhq8PWhq0OWxu2Omxt2OqwtWGrw9aGrQ5bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdjqsLVhq8PWhq0OWxu2Omxt2OqwtWGrw9aGrQ5bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdjqsLVhq8PWhq0OWxu2Omxt2OqwtWGrw9aGrQ5bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdjqsLVhq8PWhq0OWxu2Omxt2OqwtWGrw9aGrQ5bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdjqsLVhq8PWhq0OWxu2Omxt2OqwtWGrw9aGrQ5bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdjqsLVhq8PWhq0OWxu2Omxt2OqwtWGrw9aGrQ5bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdjqsLVhq8PWhq0OWxu2Omxt2OqwtWGrw9aGrQ5bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdjqsLVhq8PWhq0OWxu2Omxt2OqwtWGrw9aGrQ5bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdjqsLVhq8PWhq0OWxu2Omxt2OqwtWGrw9aGrQ5bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdjqsLVhq8PWhq0OWxu2Omxt2OqwtWGrw9aGrQ5bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdjqsLVhq8PWhq0OWxu2Omxt2OqwtWGrw9aGrQ5bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdjqsLVhq8PWhq0OWxu2Omxt2OqwtWGrw9aGrQ5bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdjqsLVhq8PWhq0OWxu2Omxt2OqwtWGrw9aGrQ5bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdjqsLVhq8PWhq0OWxu2Omxt2OqwtWGrw9aGrQ5bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdjqsLVhq8PWhq0OWxu2Omxt2OqwtWGrw9aGrQ5bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdjqsLVhq8PWhq0OWxu2Omxt2OqwtWGrw9aGrQ5bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdjqsLVhq8PWhq0OWxu2Omxt2OqwtWGrw9aGrQ5bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdjqsLVhq8PWhq0OWxu2Omxt2OqwtWGrw9aGrQ5bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdjqsLVhq8PWhq0OWxu2Omxt2OqwtWGrw9aGrQ5bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdjqsLVhq8PWhq0OWxu2Omxt2OqwtWGrw9aGrQ5bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdjqsLVhq8PWhq0OWxu2Omxt2OqwtWGrw9aGrQ5bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdjqsLVhq8PWhq0OWxu2Omxt2OqwtWGrw9aGrQ5bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdjqsLVhq8PWhq0OWxu2Omxt2OqwtWGrw9aGrQ5bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdjqsLVhq8PWhq0OWxu2Omxt2OqwtWGrw9aGrQ5bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdjqsLVhq8PWhq0OWxu2Omxt2OqwtWGrw9aGrQ5bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdjqsLVhq8PWhq0OWxu2Omxt2OqwtWGrw9aGrQ5bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdjqsLVhq8PWhq0OWxu2Omxt2OqwtWGrw9aGrQ5bG7Y6bG3Y6rC1YavD1oatDlsbtjpsbdj
 
-## 🚀 一键部署趋势
-[![Forkers Over Time](https://img.shields.io/github/forks/hangvane/hexo-netlify-cms-vercel?label=Fork%20Trend&style=social)](https://github.com/hangvane/hexo-netlify-cms-vercel/fork)
+第一步：Fork项目模板
+1. 访问项目GitHub地址：https://github.com/hangvane/hexo-netlify-cms-vercel
+2. 点击右上角 "Use this template" > "Create a new repository"
+3. 创建时可以设为私有仓库（建议公开以方便后续维护）
 
-## 🌈 项目亮点
-| 特性 | 优势描述 |
-|------|----------|
-| 💻 零代码 | 无需任何编程基础 |
-| 🚫 零费用 | 完全免费的基础设施 |
-| 🌍 全球加速 | 中国大陆优化访问 |
-| ✍️ 在线编辑 | 类WordPress的写作体验 |
-| ⚡ 极速加载 | 静态页面 + Vercel CDN |
+第二步：配置 Netlify-CMS
+1. 在仓库中找到文件: `/source/admin/config.yml`
+2. 修改以下字段：
+   ```yaml
+   backend:
+     repo: your-github-username/your-repo-name  # 替换为你的仓库路径
+     base_url: https://your-vercel-domain.vercel.app  # 后续部署后会获得实际域名
+   ```
 
-## 🛠 快速开始
+第三步：创建 GitHub OAuth 应用
+1. 访问 https://github.com/settings/developers
+2. 点击 "New OAuth App"
+3. 填写：
+   • Application name: 任意名称（如 MyBlogCMS）
 
-### 第一步：Fork仓库
-[![Use Template](https://img.shields.io/badge/-Fork%20Now!-blue?logo=github&style=for-the-badge)](https://github.com/hangvane/hexo-netlify-cms-vercel/fork)
+   • Homepage URL: https://your-vercel-domain.vercel.app
 
-```bash
-手动Fork方法：
-1. 访问 https://github.com/hangvane/hexo-netlify-cms-vercel
-2. 点击右上角 "Fork" 按钮
-3. 选择目标仓库可见性（建议Public）
-```
+   • Authorization callback URL: https://your-vercel-domain.vercel.app/callback
 
-### 第二步：基础配置
-修改 `source/admin/config.yml`：
-```yaml
-backend:
-  repo: your_github_username/your_repo  # 👈 修改为你的仓库路径
-  base_url: https://your-app.vercel.app # 部署后自动生成
-```
+   (暂时用临时域名，部署后可以修改)
 
-### 第三步：部署到Vercel
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/your_username/your_repo)
+第四步：获取客户端凭证
+1. 创建完OAuth应用后，记录：
+   • Client ID
 
-```markdown
-🎨 主题美化指南
-1. 替换 `themes/` 目录下的主题文件
-2. 修改 `_config.yml` 中的主题配置项：
-```yaml
-theme: 
-  name: "butterfly"      # 推荐主题
-  plugins:
-    - hexo-renderer-sass
-```
+   • 点击 "Generate a new client secret" 获取密钥
 
-🌐 自定义域名
-[![Add Domain](https://img.shields.io/badge/-绑定域名-purple?style=flat-square&logo=vercel)](https://vercel.com/docs/projects/domains)
-```bash
-CNAME记录指向：cname.vercel-dns.com
-```
 
-🤝 贡献指南
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/hangvane/hexo-netlify-cms-vercel/pulls)
+第五步：部署到 Vercel
+1. 访问 https://vercel.com
+2. 新建项目 > Import Git Repository
+3. 选择你创建的仓库
+4. 在环境变量设置中添加：
+   • `OAUTH_GITHUB_CLIENT_ID` ➔ 你的Client ID
 
-```diff
-+ 欢迎提交以下改进：
-- 新主题适配
-- 中文文档优化
-- CMS功能增强
-```
+   • `OAUTH_GITHUB_CLIENT_SECRET` ➔ 你的Client Secret
 
-📜 协议
-[![License](https://img.shields.io/github/license/hangvane/hexo-netlify-cms-vercel?color=blue)](https://github.com/hangvane/hexo-netlify-cms-vercel/blob/main/LICENSE)
-```
+5. 点击部署，等待完成（约2-5分钟）
 
-实际使用建议：
-1. 在GitHub仓库中添加 `preview.png` 作为效果图
-2. 替换所有 "your_username/your_repo" 为实际路径
-3. 添加真实部署后的演示站点链接
-4. 可增加「常见问题」章节提升实用性
+第六步：域名配置（可选）
+1. 部署完成后，在Vercel控制台：
+   • 前往项目设置 > Domains
 
-这个README通过以下方式提升吸引力：
-• 使用动态徽章展示项目活跃度
+   • 可绑定自定义域名（需验证DNS）
 
-• 添加一键部署按钮
+   • SSL证书会自动生成
 
-• 表格化功能展示
 
-• 代码片段与可视化元素结合
+第七步：测试 CMS 系统
+1. 访问 `https://your-domain/admin/`
+2. 使用GitHub账号登录
+3. 测试功能：
+   • 创建新文章
 
-• 明确的贡献引导
+   • 修改配置
 
-• 移动端友好排版
+   • 查看提交记录是否同步到GitHub仓库
+
+
+高级配置（预览功能）
+1. 登录 https://app.netlify.com
+2. 新建站点并关联同一个GitHub仓库
+3. 无需额外配置，保持默认即可
+4. 在Netlify-CMS编辑时即可使用预览功能
+
+常见问题排查
+1. 403错误：检查OAuth应用的回调URL是否包含HTTPS协议
+2. 内容不同步：确保仓库名称在config.yml正确
+3. 样式丢失：等待Vercel完成部署后强制刷新浏览器缓存
+4. 预览失败：确认Netlify站点是否正常构建
+
+后续维护
+1. 所有内容变更都会通过Git提交记录保存
+2. 可通过GitHub网页直接修改内容文件（位于/source/_posts）
+3. 主题更新建议通过Git同步原仓库的更新
+
+建议首次部署后先创建测试文章，验证整个工作流程是否正常。如果遇到授权问题，可重新生成Client Secret并更新Vercel的环境变量。
