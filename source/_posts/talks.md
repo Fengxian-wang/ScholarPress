@@ -1,8 +1,9 @@
 ---
-title: Talks
+title: Academic Activities
 academia: false
 ---
-## Academic Activities  
+
+
 **Research on Electromagnetic Energy Flow and Coupling Characteristics**  
 7 December 2022 | The 10th Academic Forum on Frontiers in Electrotechnology (FAFEE 2022), Wuhan, Hubei Province, China
 
