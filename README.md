@@ -106,9 +106,11 @@ OAUTH_GITHUB_CLIENT_SECRET = your_client_secret
 ---
 
 ## 🔄 后续维护
-1. 所有变更通过Git提交保存
-2. 直接编辑/source/_posts内容文件
-3. 通过Git同步原仓库主题更新
 
-> 💡 建议首次部署后创建测试文章验证流程，遇到授权问题可重新生成Client Secret
-> /source/admin/config.yml中base_url、OAuth 应用配置中callback URL和URL保持一致 其中callback URL=URL/callback
+1. 所有变更通过Git提交保存  
+2. 直接编辑`/source/_posts`内容文件  
+3. 通过Git同步原仓库主题更新  
+
+> 💡 建议首次部署后创建测试文章验证流程，遇到授权问题可重新生成Client Secret。  
+> 💡 `/source/admin/config.yml`中`base_url`、OAuth应用配置中`callback URL`和`URL`保持一致，其中`callback URL=URL/callback`。  
+> 💡 `themes/Academia/_config.yml`修改主页个人信息
