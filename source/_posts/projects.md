@@ -1,3 +1,7 @@
+---
+title: Projects
+academia: true
+---
 ## Participating Projects  
 **Wireless Charging Smart Cities**  
 Project No. kxyjskpxm2019042 | 2019  
