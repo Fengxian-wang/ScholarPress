@@ -5,16 +5,16 @@
 favicon: /img/favicon.png
 
 # 头像路径（建议尺寸：200x200 像素正方形）
-avatar: /img/avatar.jpg
+avatar: /img/profile.jpg
 
 # 作者名称（如果hexo主配置已设置author，此处不生效）
-author: 'Jason'
+author: 'fengxian Wang'
 
 # 作者简介（显示在个人主页）
 author_bio: 'Your biography can be writed down here.'
 
 # 建站年份（显示在页脚版权信息）
-since: 2020
+since: 2025
 
 
 # ========================
