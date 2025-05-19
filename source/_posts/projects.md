@@ -1,8 +1,16 @@
-## Research Projects
+## Participating Projects  
+**Wireless Charging Smart Cities**  
+Project No. kxyjskpxm2019042 | 2019  
+China Association of Science and Technology | Principal Investigator  
 
-Project Title | Duration | Grant No. | Agency | Role
--------------|----------|-----------|--------|-----
-**Wireless Charging Smart Cities**<br>*Technical innovation in urban energy systems* | 2019-2022 | kxyjskpxm2019042 | China Association of Science and Technology | Principal Investigator
-**Fundamental Problems of Near-Field WPT**<br>*EM field coupling mechanisms research* | 2021-2024 | 52122701 | NSFC | Doctoral Research Project 
-**Flexible Nanocrystal-based EM Coupling**<br>*Novel materials for WPT applications* | 2019-2022 | 51977147 | NSFC | Core Member (Rank 5)
-**Dynamic WPT Force Smoothing Methods**<br>*High-frequency force regulation* | 2018-2021 | 51807138 | NSFC | Graduate Research Assistant
+**Research on Fundamental Problems of Wireless Power Transmission in Near-Field Electromagnetic Fields**  
+Project No. 52122701 | 2021  
+National Natural Science Foundation of China | Doctoral Research Project  
+
+**Research on High Performance Electromagnetic Coupling Method for Wireless Charging Based on Novel Flexible Laminated Nanocrystals**  
+Project No. 51977147 | 2019  
+National Natural Science Foundation of China | Core Researcher (Rank 5)  
+
+**Research on the Mechanism and Smoothing Method of High Frequency Electromagnetic Force in the Process of Dynamic Wireless Power Coupling**  
+Project No. 51807138 | 2018  
+National Natural Science Foundation of China | Graduate Research Assistant  
