@@ -2,7 +2,6 @@
 title: Publications
 academia: true
 ---
-## Publications  
 
 **Near Field Electromagnetic Energy Flow Regulation Method for WPT System via Frequency Adjustment**  
 **Fengxian Wang**, Qingxin Yang*, Xian Zhang*, Ting Chen, Guangyao Li  
