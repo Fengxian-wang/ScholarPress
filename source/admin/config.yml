@@ -2,7 +2,7 @@ backend:
   name: github
   repo: Fengxian-wang/academia-hexo-netlify-cms-vercel # Path to your Github/Gitlab repository
   branch: main # Branch to update
-  base_url: http://fengxianwang.pp.ua/
+  base_url: https://www.fengxianwang.pp.ua/
 
 # These lines should *not* be indented
 media_folder: 'source/images' # Media files will be stored in the repo under source/images
