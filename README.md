@@ -114,3 +114,5 @@ OAUTH_GITHUB_CLIENT_SECRET = your_client_secret
 > 💡 建议首次部署后创建测试文章验证流程，遇到授权问题可重新生成Client Secret。  
 > 💡 `/source/admin/config.yml`中`base_url`、OAuth应用配置中`callback URL`和`URL`保持一致，其中`callback URL=URL/callback`。  
 > 💡 `themes/Academia/_config.yml`修改主页个人信息
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Fengxian-wang/academia-hexo-netlify-cms-vercel&type=Date)](https://github.com/Fengxian-wang/academia-hexo-netlify-cms-vercel)
