@@ -153,4 +153,4 @@ OAUTH_GITHUB_CLIENT_SECRET = your_client_secret
 
 本项目基于 [MIT License](LICENSE) 开源，学术机构可免费商用
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Fengxian-wang/academia-hexo-netlify-cms-vercel&type=Date)](https://github.com/Fengxian-wang/academia-hexo-netlify-cms-vercel)
+[![Star History Chart](https://api.star-history.com/svg?repos=Fengxian-wang/ScholarPress&type=Date)](https://github.com/Fengxian-wang/ScholarPress)
