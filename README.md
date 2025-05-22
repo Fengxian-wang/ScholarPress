@@ -11,7 +11,8 @@
 ## 🌟 核心特性
 
 <div align="center">
-  <img src="https://placehold.co/600x400?text=Demo+Showcase" alt="Demo Preview" width="65%">
+  <img src="./Demo.png" alt="ScholarPress Demo Screenshot" width="75%" style="border: 1px solid #eee; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+  <p style="margin-top: 12px; color: #666; font-size: 0.9em;">▲ 学术主页演示 - 包含个人信息展示、所获奖励、学术履历等核心模块</p>
 </div>
 
 ### 🎯 学术专属功能
