@@ -1,6 +1,37 @@
-# 🚀 Hexo + Netlify CMS + Vercel 极速部署指南
+# 🚀 ScholarPress · Academic Portfolio Builder 
 
-## 🔧 部署步骤
+[![GitHub License](https://img.shields.io/github/license/Fengxian-wang/academia-hexo-netlify-cms-vercel?style=flat-square)](https://github.com/Fengxian-wang/academia-hexo-netlify-cms-vercel/blob/main/LICENSE)
+[![Vercel Deploy](https://img.shields.io/badge/Deploy%20on-Vercel-black?logo=vercel&style=flat-square)](https://vercel.com/new/clone)
+[![Fork Template](https://img.shields.io/badge/Fork%20Template-GitHub-blue?logo=github&style=flat-square)](https://github.com/Fengxian-wang/hexo-netlify-cms-vercel/generate)
+
+> Hexo × Netlify CMS × Vercel 驱动的零代码学术门户解决方案
+
+---
+
+## 🌟 核心特性
+
+<div align="center">
+  <img src="https://placehold.co/600x400?text=Demo+Showcase" alt="Demo Preview" width="65%">
+</div>
+
+### 🎯 学术专属功能
+- **论文展示系统** - 支持BibTex自动解析与MLA/APA多格式引用
+- **科研时间轴** - 可视化呈现项目里程碑与学术轨迹
+- **学术身份集成** - 自动同步ORCID/Google Scholar/ResearchGate数据
+- **LaTeX支持** - 原生渲染数学公式与专业符号
+
+### ⚡ 技术架构优势
+```mermaid
+graph LR
+  A[GitHub仓库] --> B[Netlify CMS]
+  B --> C[Hexo生成器]
+  C --> D[Vercel部署]
+  D --> E((全球CDN))
+```
+
+---
+
+## 🔧 部署指南
 
 ### 第一步：Fork项目模板
 [![Use Template](https://img.shields.io/badge/-Fork%20Now!-blue?logo=github&style=for-the-badge)](https://github.com/Fengxian-wang/hexo-netlify-cms-vercel/generate)
@@ -114,5 +145,11 @@ OAUTH_GITHUB_CLIENT_SECRET = your_client_secret
 > 💡 建议首次部署后创建测试文章验证流程，遇到授权问题可重新生成Client Secret。  
 > 💡 `/source/admin/config.yml`中`base_url`、OAuth应用配置中`callback URL`和`URL`保持一致，其中`callback URL=URL/callback`。  
 > 💡 `themes/Academia/_config.yml`修改主页个人信息
+
+---
+
+## 📜 开源协议
+
+本项目基于 [MIT License](LICENSE) 开源，学术机构可免费商用
 
 [![Star History Chart](https://api.star-history.com/svg?repos=Fengxian-wang/academia-hexo-netlify-cms-vercel&type=Date)](https://github.com/Fengxian-wang/academia-hexo-netlify-cms-vercel)
